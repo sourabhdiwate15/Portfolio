@@ -1,0 +1,189 @@
+* {
+  margin: 0px;
+  padding: 0;
+}
+body {
+  margin-bottom: 0;
+  background: linear-gradient(to bottom, #11379d, #3393e2, #b7a169, #dd9612);
+  color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+  font-size: 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+nav ul li a:hover {
+  color: rgb(255, 250, 250);
+  font-size: 35px;
+  text-decoration: underline;
+}
+main hr {
+  border: 0;
+  background: blue;
+  height: 1.2px;
+  margin: 70px 84px;
+}
+.left {
+  font-size: 35px;
+}
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 50px;
+  margin-bottom: auto;
+}
+.firstsection div {
+  width: 30%;
+}
+.leftsection {
+  font-size: 2.8rem;
+}
+.leftsection .buttons {
+  padding: 30px;
+}
+.leftsection .btn {
+  padding: 12px;
+  background: #d68835;
+  color: black;
+  border: 2px solid #11379d;
+  font-size: 20px;
+  cursor: pointer;
+}
+.rightsection img {
+  width: 80%;
+  margin: 50px 0;
+  border-radius: 20%;
+}
+header {
+  border-bottom: 0.1px solid #ffffff;
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 60vh;
+  margin-right: 30px;
+}
+.secondSection h1 {
+  font-size: 40px;
+  text-align: left;
+}
+.secondSection .box {
+  background: white;
+  width: 50vw;
+  height: 2px;
+  margin: 50px 0;
+  display: flex;
+}
+.secondSection .box .vertical {
+  height: 93px;
+  width: 1px;
+  background: white;
+  margin: 0 100px;
+}
+.secondSection .vertical-text {
+  position: relative;
+  top: 91px;
+  left: -19px;
+  font-size: 30px;
+  font-style: italic;
+}
+.secondSection ul {
+  margin-top: 200px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.Projects .container {
+  margin: auto;
+}
+.Projects {
+  margin-right: 160px;
+  margin-top: -60px;
+}
+.Projects .project {
+  font-size: 25px;
+}
+
+.Project h2 {
+  text-align: left;
+}
+
+#contact {
+  padding: 50px 0;
+}
+
+#contact h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#contact .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact form {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact .form-group {
+  margin-bottom: 20px;
+}
+
+#contact label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#contact button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #2980b9;
+}
+
+#contact .col-md-6 {
+  margin-top: 20px;
+}
+
+#contact h4 {
+  color: #333;
+}
+
+#contact p {
+  margin-bottom: 10px;
+}
